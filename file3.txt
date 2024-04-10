@@ -1,0 +1,4 @@
+here is something
+inside file3
+for testing
+for diffing
