@@ -20,3 +20,5 @@ git push -u origin main
 mkdir .gitignore
 echo "*.log" > .gitignore
 
+### pull latest files from remote repo
+git pull origin main
