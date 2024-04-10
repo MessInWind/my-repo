@@ -22,3 +22,6 @@ echo "*.log" > .gitignore
 
 ### pull latest files from remote repo
 git pull origin main
+
+### in relation to target remote repo
+git remote -v
