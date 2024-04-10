@@ -11,17 +11,17 @@ git status
 ### check versions
 git log --oneline
 
-### create remote repo
-git remote add origin https://github.com/MessInWind/my-repo.git
-git branch -M main
-git push -u origin main
+### link to remote repo
+git remote add origin https://github.com/MessInWind/my-repo.git <br>
+git branch -M main <br>
+git push -u origin main <br>
 
 ### create .gitignore file to filter files
-mkdir .gitignore
+mkdir .gitignore <br>
 echo "*.log" > .gitignore
 
 ### pull latest files from remote repo
 git pull origin main
 
-### in relation to target remote repo
+### check remote repo
 git remote -v
