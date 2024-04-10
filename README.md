@@ -15,3 +15,8 @@ git log --oneline
 git remote add origin https://github.com/MessInWind/my-repo.git
 git branch -M main
 git push -u origin main
+
+### create .gitignore file to filter files
+mkdir .gitignore
+echo "*.log" > .gitignore
+
