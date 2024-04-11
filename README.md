@@ -39,6 +39,9 @@ git branch
 ### setup new branch
 git branch branch_name
 
+### link new branch with remote branch
+git push --set-upstream origin branch_name
+
 ### switch to target branch
 git switch branch_name <br>
 git checkout branch_name
@@ -59,3 +62,4 @@ then commit changes
 
 ### abort merge process (before commit)
 git merge --abort
+
