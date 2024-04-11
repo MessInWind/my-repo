@@ -36,3 +36,5 @@ git branch branch_name
 git switch branch_name <br>
 git checkout branch_name
 
+### merge branch A into B
+git merge A (current branch is B)
