@@ -39,5 +39,8 @@ git checkout branch_name
 ### merge branch A into B
 git merge A (current branch is B)
 
-### delete branch
+### delete branch (already merged)
 git branch -d branch_name
+
+### delete branch (not merged)
+git branch -D branch_name
