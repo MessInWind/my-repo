@@ -1,2 +1,1 @@
-
-from main conflict
+from main conflict, here is sub1; modified from conflict.
