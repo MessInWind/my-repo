@@ -9,14 +9,16 @@ git add => git commit => git push
 git status
 
 ### check versions
-git log --oneline
+git log --oneline --graph
 
 ### check diffrences between versions
 git diff HEAD^3 HEAD <br>
 git diff version_id_brefore version_id_after
 
 ### reset current version to former version
-git reset version_id
+git reset version_id (mixed, remain working file)
+git reset --hard version_id (remain nothing)
+git reset --soft version_id (remain working file and stage file)
 
 ### create .gitignore file to filter files
 touch .gitignore <br>
@@ -63,3 +65,12 @@ then commit changes
 ### abort merge process (before commit)
 git merge --abort
 
+### restore deleted branch
+git checkout -b branch_name version_num
+
+### use alias to shorten command
+alias graph="git log --oneline --graph"
+
+### rebase branch to same root
+git switch branch_name
+git rebase target_root_branch
